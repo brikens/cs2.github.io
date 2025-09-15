@@ -5,17 +5,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maps</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: radial-gradient(circle at top, #0f0f0f, #000000);
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin: 0;
+            color: #00ffe0;
+            text-shadow: 0 0 10px #00ffe0, 0 0 20px #00ffe0, 0 0 30px #00aaff;
+            transition: transform 0.2s ease, text-shadow 0.3s ease;
+        }
+
+        a {
+            text-decoration: none;
+            margin: 15px 0;
+            padding: 15px 30px;
+            border: 2px solid #00ffe0;
+            border-radius: 12px;
+            background: rgba(0, 255, 224, 0.05);
+            transition: background 0.3s ease, transform 0.3s ease;
+            display: inline-block;
+        }
+
+        a:hover h1 {
+            transform: scale(1.1);
+            text-shadow: 0 0 15px #00ffe0, 0 0 30px #00aaff, 0 0 45px #0088ff;
+        }
+
+        a:hover {
+            background: rgba(0, 255, 224, 0.15);
+            transform: translateY(-3px);
+        }
+    </style>
 </head>
 
 <body>
-    <a href="/mapDust2.html">
+    <a href="/Dust2.html">
         <h1>Dust2</h1>
     </a>
-
-    <a>
+    <a href="/Mirage.html">
         <h1>Mirage</h1>
     </a>
-
+    <a href="/Inferno.html">
+        <h1>Inferno</h1>
+    </a>
+    <a href="/Nuke.html">
+        <h1>Nuke</h1>
+    </a>
+    <a href="/Ancient.html">
+        <h1>Ancient</h1>
+    </a>
+    <a href="/Anubis.html">
+        <h1>Anubis</h1>
+    </a>
+    <a href="/Vertigo.html">
+        <h1>Vertigo</h1>
+    </a>
 </body>
 
 </html>
